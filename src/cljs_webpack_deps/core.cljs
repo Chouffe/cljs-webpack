@@ -10,6 +10,10 @@
   (let [state (r/atom :paused)]
     (fn []
       [:div
+       [:h2 "Emojis"]
+       [x/EmojiReact {:reactions [{:name "rage" :count 2}
+                                  {:name "blush" :count 1}]}]
+
        [:h2 (name @state)]
        [x/YouTube {:videoId "G7Z_g2fnEDg"
                    :onPlay #(reset! state :playing)

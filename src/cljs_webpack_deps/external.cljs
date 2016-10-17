@@ -6,3 +6,4 @@
 (def ^:private deps (o/get js/window 'webpack-deps))
 
 (def YouTube (adapt-react-class (o/get deps 'YouTube)))
+(def EmojiReact (adapt-react-class (o/get deps 'EmojiReact)))

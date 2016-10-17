@@ -12,7 +12,7 @@
             [lein-figwheel "0.5.0-1"]
             [lein-npm "0.6.1"]]
 
-  :npm {:dependencies [[react-d3-components "^0.6.0"]
+  :npm {:dependencies [[react-emoji-react "^0.3.0"]
                        [react-youtube "^5.0.0"]
                        [webpack "^1.12.9"]]
 
