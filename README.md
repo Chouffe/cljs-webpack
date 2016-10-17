@@ -1,24 +1,14 @@
-# cljs-webpack-deps
+# cljs-webpack
 
-## Blog Notes
+## Intro
 
-Make use of the npm ecosystem
+Make use of the npm ecosystem within cljs projects.
 cljsjs is ok, but requires upfront work and all transitive dependencies
-I just want to try something out simply
-
-## TODO
-
-* react d3
-* react DnD
 
 ## Run
 
-    lein npm install
-    lein cljsbuild once dev
-    lein figwheel
-
-## License
-
-Copyright © 2016 Glen Mailer
-
-MIT License
+```
+lein npm install
+lein cljsbuild once dev
+lein figwheel
+```
